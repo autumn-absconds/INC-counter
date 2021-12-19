@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Mea+Culpa&display=swap');
+
+
+
+body{
+   display: flex;
+   flex-direction: row;
+justify-content: space-evenly;
+text-align: center;
+font-weight: bold;
+background-color: #ffffff;
+margin-top: 190px;
+}
+.counter-container{
+    /* padding: 15px; */
+    margin: auto;
+    /* text-align: center; */
+    
+}
+i{
+    color:#ff0180 ;
+    margin: 25px 0 15px 0;
+    
+}
+.counter{
+    color: #ff0077;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Kolker Brush', cursive;
+    /* font-family: 'Mea Culpa', cursive; */
+}
+
+
+
+span{
+    font-size: 40px;
+    color: #382b2b;
+    padding-top: 55px;
+    margin: 10px;
+    font-family: 'Mea Culpa', cursive;
+    font-family: 'Kolker Brush', cursive;
+}
+
+
+@media screen and (max-width: 400px){
+
+body{
+    display: flex;
+   flex-direction:column;
+   margin-top: 10px;
+}
+
+.counter-container{
+    margin-bottom: 32px;
+}
+i{
+    margin: auto;
+}
+span{
+    padding-top: 0px;
+    margin: 0px;
+}
+}
